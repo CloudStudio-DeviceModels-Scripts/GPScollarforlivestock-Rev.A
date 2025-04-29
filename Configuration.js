@@ -28,7 +28,7 @@ function getEndpoints(deviceAddress, endpoints)
      endpoints.addEndpoint("1", "Temperatura", endpointType.temperatureSensor);
    endpoints.addEndpoint("2", "GPS", endpointType.locationTracker);
    var a = endpoints.addEndpoint("3", "Acelerometro", endpointType.genericSensor);
-   a.variableTypeId = 1071;
+   a.variableTypeId = 1020;
 }
 
 function validateDeviceAddress(address, result)
